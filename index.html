@@ -1,26 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Mythic Survey Society</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f8f6f1;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    font-size: 1.3em;
+    color: #666;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.survey-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.survey-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #777;
+}
+
+</style>
+
 </head>
 
 <body>
 
+<header>
+
 <h1>MYTHIC SURVEY SOCIETY</h1>
 
-<p>
+<p class="subtitle">
 Topographic Surveys of Mythological, Legendary and Fictional Worlds
 </p>
 
+</header>
+
+<section>
+
 <h2>Featured Surveys</h2>
 
-<ul>
-<li>Atlantis</li>
-<li>Middle-earth</li>
-<li>Westeros</li>
-<li>Tamriel</li>
-</ul>
+<div class="survey-grid">
+
+<div class="survey-card">
+<h3>Atlantis</h3>
+<p>Topographic Reconstruction</p>
+</div>
+
+<div class="survey-card">
+<h3>Middle-earth</h3>
+<p>Relief Survey</p>
+</div>
+
+<div class="survey-card">
+<h3>Westeros</h3>
+<p>Geographic Interpretation</p>
+</div>
+
+<div class="survey-card">
+<h3>Tamriel</h3>
+<p>Elevation Survey</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+Mythic Survey Society © 2026
+
+</footer>
 
 </body>
 </html>
